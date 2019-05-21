@@ -19,6 +19,6 @@ class BootstrapAsset extends AssetBundle
 {
     public $sourcePath = '@bootstrap-assets/src';
     public $css = [
-        'bootstrap-isolated.scss',
+        'bootstrap-isolated.css',
     ];
 }
