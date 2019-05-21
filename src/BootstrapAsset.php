@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class BootstrapAssetVue extends AssetBundle
+class BootstrapAsset extends AssetBundle
 {
     public $sourcePath = '@bootstrap-assets/src';
     public $css = [
