@@ -15,10 +15,10 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class BootstrapAsset extends AssetBundle
+class BootstrapAssetVue extends AssetBundle
 {
-    public $sourcePath = '@bower/bootstrap/dist';
+    public $sourcePath = '@bootstrap-assets/src';
     public $css = [
-        'css/bootstrap.css',
+        'bootstrap-isolated.scss',
     ];
 }
